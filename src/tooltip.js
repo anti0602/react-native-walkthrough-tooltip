@@ -456,7 +456,6 @@ class Tooltip extends Component {
       <React.Fragment>
         {useReactNativeModal ? (
           <ModalComponent
-            transparent
             visible={showTooltip}
             onRequestClose={this.props.onClose}
             supportedOrientations={this.props.supportedOrientations}
